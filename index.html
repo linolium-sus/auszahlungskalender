@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#f8f8fa"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="Auszahlungen"><meta name="description" content="Dein schlichter Kalender zum Abhaken täglicher Auszahlungen."><link rel="manifest" href="./manifest.webmanifest"><link rel="apple-touch-icon" href="./icon-180.png"><link rel="stylesheet" href="./style.css"><title>Auszahlungen</title>
+</head>
+<body>
+<div class="app"><header class="top"><div class="eyebrow" id="todayLabel"></div><div class="headrow"><h1>Kalender</h1><button id="todayButton" class="today-button" type="button">Heute</button></div><div class="yearrow"><button class="nav" id="prevYear" aria-label="Vorheriges Jahr">‹</button><h2 id="yearLabel"></h2><button class="nav" id="nextYear" aria-label="Nächstes Jahr">›</button></div><div class="summary"><span><strong id="count">0</strong> Tage abgehakt</span><span id="progress">0 %</span></div><div class="progress-track"><div class="progress-bar" id="progressBar"></div></div></header><main id="calendar" aria-label="Jahreskalender"></main><footer><span class="legend-today"></span> Heute <span class="legend-check">✕</span> Abgehakt <p>Deine Einträge werden ausschließlich auf diesem Gerät gespeichert.</p></footer></div>
+<script src="./app.js" defer></script>
+</body></html>
